@@ -16,7 +16,6 @@ import cvxpy as cp
 from sklearn.covariance import LedoitWolf
 
 import matplotlib.pyplot as plt
-from IPython.display import display
 
 """##Carga CSV + imputación/alineación (LINEAL)"""
 

@@ -682,13 +682,10 @@ def run_portfolio_app(
             print(f"- Drawdown máx: {mdd:.2%} (peor caída desde un pico durante el período evaluado)")
         print("")
 
-    # Mostrar tablas
-    display(summary_simple)
 
     print("🧾 Lista de compra (cuánto invertir en cada empresa):")
     buy_show = buy.copy()
     buy_show["Monto ($)"] = buy_show["Monto ($)"].map(lambda x: _fmt_money(float(x)))
-    display(buy_show)
 
     # -------------------------
     # Gráficos

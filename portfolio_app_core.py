@@ -474,7 +474,6 @@ def validate_oos(
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from IPython.display import display
 
 def _equity_curve(r: pd.Series) -> pd.Series:
     r = r.dropna()
